@@ -32,7 +32,7 @@ class Queue {
   const queue = new Queue();
   console.log(queue.enqueue('Juan')); // ['Juan']
   console.log(queue.enqueue('Miguel')); // ['Juan', 'Miguel']
-  console.log(queue.enqueue('Ana')); // ['The Rock', 'Miguel', 'Ana']
+  console.log(queue.enqueue('Ana')); // ['Juan', 'Miguel', 'Ana']
   console.log(queue.dequeue()); // 'Juan'
   console.log(queue.peek()); // 'Miguel'
   console.log(queue.isEmpty()); // false
